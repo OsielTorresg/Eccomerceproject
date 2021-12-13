@@ -14,22 +14,10 @@ body {
   color: white;
   text-align: center;
   margin: 0.625rem;
-  position: relative;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-image: url(https://static.wixstatic.com/media/11c1cc_4f178739423846c59c685c7819d1dae0~mv2.jpeg/v1/fill/w_320,h_527,q_90/11c1cc_4f178739423846c59c685c7819d1dae0~mv2.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+}
+.hero img {
   filter: brightness(50%);
-  position: absolute;
 }
 
 .hero-title {
