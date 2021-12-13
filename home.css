@@ -14,9 +14,10 @@ body {
   color: white;
   text-align: center;
   margin: 0.625rem;
+  position: relative;
 }
 
-/* .hero::before {
+.hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -27,8 +28,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  filter: brightness(50%); */
-/* } */
+  filter: brightness(50%);
+  position: absolute;
+}
 
 .hero-title {
   font-size: 3rem;
