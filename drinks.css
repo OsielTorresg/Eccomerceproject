@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  height: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#nav ul li {
+  text-align: center;
+  padding: 10px;
+  margin-left: 80px;
+  display: inline-flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: Green;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+.title {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 2px 1px blue;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5px;
+  grid-gap: 2em;
+  color: orange;
+  background-image: linear-gradient(#ffffff00, #ffffff00),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9vwp_tCr_8TSB8FBP6z-Ba6zOrOuXHIdHrQ&usqp=CAU);
+}
+.product > img {
+  height: 150px;
+  width: 150px;
+}
+.product {
+  padding: 5em;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50px 50px;
+  box-shadow: 2px 4px 8px green;
+  max-width: 300px;
+  margin: auto;
+  font-family: arial;
+  background-color: white;
+  background-image: url(white.png);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.button:hover {
+  opacity: 0.7;
+}
+.button {
+  background-color: black;
+}
+.sold {
+  color: purple;
+}
+footer {
+  background: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.social {
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (min-width: 300px) {
+  .product-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 800px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .product-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .product-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
