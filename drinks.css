@@ -2,7 +2,7 @@ body {
   padding: 0;
   height: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "spartan", sans-serif;
   background-color: black;
   color: white;
 }
@@ -33,7 +33,7 @@ a {
   text-decoration: none;
   color: white;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "spartan", sans-serif;
   list-style: none;
 }
 
@@ -43,8 +43,8 @@ a:hover {
 
 .title {
   color: red;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-shadow: 2px 1px blue;
+  font-family: "spartan", sans-serif;
+  /* text-shadow: 2px 1px blue; */
 }
 
 .product-container {
@@ -52,9 +52,9 @@ a:hover {
   grid-template-columns: repeat(4, 1fr);
   padding: 5px;
   grid-gap: 2em;
-  color: orange;
+  color: black;
   background-image: linear-gradient(#ffffff00, #ffffff00),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9vwp_tCr_8TSB8FBP6z-Ba6zOrOuXHIdHrQ&usqp=CAU);
+    url(https://img.freepik.com/free-photo/wooden-background_24972-623.jpg?size=626&ext=jpg);
 }
 .product > img {
   height: 150px;
@@ -65,12 +65,12 @@ a:hover {
   text-align: center;
   border: 2px solid black;
   border-radius: 50px 50px;
-  box-shadow: 2px 4px 8px green;
+  box-shadow: 2px 4px 8px dark;
   max-width: 300px;
   margin: auto;
-  font-family: arial;
+  font-family: "spartan", sans-serif;
   background-color: white;
-  background-image: url(white.png);
+  /* background-image: url(white.png); */
 }
 
 .button {
@@ -130,3 +130,5 @@ footer {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9vwp_tCr_8TSB8FBP6z-Ba6zOrOuXHIdHrQ&usqp=CAU */

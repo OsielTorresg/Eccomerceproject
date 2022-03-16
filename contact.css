@@ -2,14 +2,14 @@ body {
   padding: 0;
   height: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "spartan", sans-serif;
   background-color: black;
   color: white;
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "spartan", sans-serif;
 }
 #nav {
   display: flex;
@@ -37,7 +37,7 @@ a {
   text-decoration: none;
   color: white;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "spartan", sans-serif;
   list-style: none;
 }
 
@@ -51,7 +51,7 @@ a:hover {
 }
 .contact-section h1 {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: black;
   text-shadow: 1px 1px white;
 }
 .border {
@@ -71,14 +71,14 @@ a:hover {
   width: 100%;
   box-sizing: border-box;
   border: 0;
-  background: #111;
+  background: white;
   padding: 20px 40px;
   outline: none;
   color: white;
   transition: 0.5s;
 }
 .contact-form-text:hover {
-  box-shadow: 0 0 10px 4px blue;
+  box-shadow: 0 0 10px 4px red;
 }
 textarea.contact-form-text {
   resize: none;
